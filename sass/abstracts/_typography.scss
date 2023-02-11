@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "Lato";
+  font-weight: 400;
+  src: url("/assets/fonts/Lato-Regular.woff2") format("woff2"),
+    url("/assets/fonts/Lato-Regular.woff") format("woff"),
+    url("/assets/fonts/Lato-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-weight: 700;
+  src: url("/assets/fonts/Lato-Bold.woff2") format("woff2"),
+    url("/assets/fonts/Lato-Bold.woff") format("woff"),
+    url("/assets/fonts/Lato-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Abril Fatface";
+  font-weight: 400;
+  src: url("/assets/fonts/AbrilFatface-Regular.woff2") format("woff2"),
+    url("/assets/fonts/AbrilFatface-Regular.woff") format("woff"),
+    url("/assets/fonts/AbrilFatface-Regular.ttf") format("ttf");
+}
+
 $ff-sans: "Lato", sans-serif;
 $ff-serif: "Abril Fatface", serif;
 
